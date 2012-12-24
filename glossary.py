@@ -11,7 +11,7 @@ translate = YandexTranslate()
 import fileinput
 
 def check(s):
-    return s.lower() not in ['is','and', 'the', 'has', 'can', 'from', 'in', 'via', 'are', 'be', 'the', 'of', 'to', 'it', 'a', 'on', 'up', 'by']
+    return (s.lower() not in ['cannot', 'through']) and not s.endswith('ing')
 
 words = []
 
