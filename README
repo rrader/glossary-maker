@@ -9,6 +9,8 @@ $ sudo python setup.py install
 
 Создаст в домашней папке глоссарий - каждое 6 слово в тексте с переводом в формате
 
-    capable  -  способен
     allowing  -  позволяет
+    capable  -  способен
     microcontroller  -  микроконтроллер
+
+по алфавиту
