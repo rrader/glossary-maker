@@ -10,6 +10,8 @@ translate = YandexTranslate()
 
 import fileinput
 
+STEP = 6
+
 def check(s):
     return (s.lower() not in ['cannot', 'through']) and not s.endswith('ing')
 
@@ -21,5 +23,5 @@ for line in fileinput.input():
             # print word
             words.append(word.lower())
 
-for w in sorted(words[::6]):
+for w in sorted(words[::STEP]):
     print w," - ", translate.translate('en-ru', w)['text'][0]
