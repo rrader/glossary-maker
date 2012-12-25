@@ -1,3 +1,6 @@
+Glossary maker
+[![endorse](http://api.coderwall.com/antigluk/endorsecount.png)](http://coderwall.com/antigluk)
+
 0) Скачать это: https://github.com/antigluk/glossary-maker/archive/master.zip
 
 0.1) Установить python-yandex-translate: https://github.com/vdmitrij/python-yandex-translate/archive/master.zip
